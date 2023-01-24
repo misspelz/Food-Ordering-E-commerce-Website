@@ -7,7 +7,7 @@ addToCart.forEach((button) => {
 function cartButtonClick(){
   let check = this.innerHTML
   if(check == "Add to Cart"){
-    this.innerHTML = '<img src="../imgs/remove.svg" style="width: 30%;"/> Remove'
+    this.innerHTML = '<img src="./imgs/remove.svg" style="width: 30%;"/> Remove'
     document.getElementById('cart-notify').style = 'height: 8px; width: 8px; background-color: #ad4c4c; border-radius: 50%; display: inline-block';
     this.style = "background-color: silver; color: rgba(255, 255, 255, 1); border: 1px solid #fff; display: flex; justify-content: center; align-items: center; margin-top: 10px; border-radius: 2px; font-weight: bold;";
     this.classList.remove('button');

@@ -9,7 +9,7 @@
 
 // let restaurants = document.getElementById("restaurants");
 
-let images = ["../imgs/fast-food.svg", "../imgs/Vegetables _ Drinks.svg", "../imgs/Drinks _ Cocktails.svg", "../imgs/resturant.svg"];
+let images = ["./imgs/fast-food.svg", "./imgs/Vegetables _ Drinks.svg", "./imgs/Drinks _ Cocktails.svg", "./imgs/resturant.svg"];
 
 let location1 = document.getElementById("address-list");
 
