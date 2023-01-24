@@ -1,0 +1,144 @@
+*,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#container{
+    margin: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar span{
+    color: #ad4c4c;
+}
+.right-nav{
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.rnc{
+    margin-right: 15px;
+}
+.rnc3{
+    border: 1px solid #ad4c4c;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-right: 0;
+}
+.rnc3 a{
+    color: #ad4c4c;
+    font-weight: bold;
+}
+.rnc3:hover{
+    background-color: #ad4c4c;
+}
+.rnc3 a:hover{
+    color: white;
+}
+/* navigation bar ends */
+.fb{
+    font-size: 18px;
+    color: #696969;
+}
+.fb-content{
+    margin-top: 40px;
+}
+
+
+.homecart{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.home{
+    color: rgb(209, 214, 212);
+}
+.allcarts{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* footer */
+/* .ctu{
+    font: 16px;
+    color: #696969;
+    font-weight: bold;
+}
+.f-imgs{
+    margin-top: 20px;
+}
+footer div img{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.tnc{
+    color: #696969;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.copy{
+    width: 70%;
+    margin: 0 auto;
+    color: #696969;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 18px;
+}
+footer{
+    text-align: center;
+    margin-top: 30px;   
+} */
+
+
+@media screen and (min-width: 640px){
+    #container{
+        margin: 40px 80px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .right-nav{
+        font-size: 16px;
+    }
+    .fb{
+        font-size: 40px;
+    }
+    .fb-cont{
+        font-size: 20px;
+    }
+    .fb-content{
+        text-align: center;
+    }
+
+    /* footer */
+    /* .tnc{
+        width: 50%;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .copy{
+        width: 50%;
+        margin-top: 20px;
+        text-align: right;
+    }
+    .footer-cont{
+        display: flex;
+        justify-content: space-between;
+    } */
+}
+
+@media screen and (min-width: 992px){
+
+}
